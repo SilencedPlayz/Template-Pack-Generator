@@ -7,6 +7,13 @@
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+  <script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('service-worker.js')
+      .then(() => console.log('Service Worker registered!'))
+      .catch(err => console.log('Service Worker failed:', err));
+  }
+</script>
   <div id="fade-bg"></div>
   <div id="background"></div>
   <h1 id="header">Template pack generator</h1>
