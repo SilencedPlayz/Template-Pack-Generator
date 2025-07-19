@@ -1,6 +1,6 @@
 {
   "name": "Template Pack Generator",
-  "short_name": "App",
+  "short_name": "Template Pack Generator",
   "start_url": ".",
   "display": "standalone",
   "background_color": "#000000",
