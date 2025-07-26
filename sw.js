@@ -15,7 +15,7 @@ const assets = [
   "./index.html",
   "./style.css",
   "./script.js",
-  "./jszip/jszip.js"
+  "./jszip.js"
 ];
 
 self.addEventListener("install", (e) => {
