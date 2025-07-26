@@ -1,10 +1,10 @@
 {
   "name": "Template Pack Generator",
-  "short_name": "Template Pack Generator",
-  "start_url": ".",
+  "short_name": "Pack Generator",
+  "start_url": "index.html",
   "display": "standalone",
-  "background_color": "#000000",
-  "theme_color": "#000000",
+  "background_color": "#58ff38",
+  "theme_color": "#1fc000",
   "icons": [
     {
       "src": "./icon.png",
