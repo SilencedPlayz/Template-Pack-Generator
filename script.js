@@ -1,4 +1,6 @@
-
+if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('./sw.js');
+}
   const iconPrev = document.getElementById("pack-icon-preview")
   const iconFile = document.getElementById("pack-icon-file")
   let packName = document.getElementById("pack-name").value.trim() === "" ? "Template Pack" : document.getElementById("pack-name").value
