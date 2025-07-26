@@ -6,7 +6,7 @@ const assets = [
   "./fonts/Minecraft-Ten.otf",
   "./fonts/Minecraft-Five.otf",
   "./icons/Bg.png",
-  "./icons/button_default.png"
+  "./icons/button_default.png",
   "./icons/button_pressed_hover.png",
   "./icons/checked.png",
   "./icons/uncheck.png",
@@ -15,7 +15,7 @@ const assets = [
   "./index.html",
   "./style.css",
   "./script.js",
-  "./jszip/jszip.js",
+  "./jszip/jszip.js"
 ];
 
 self.addEventListener("install", (e) => {
