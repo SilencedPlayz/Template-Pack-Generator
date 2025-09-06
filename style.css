@@ -121,6 +121,7 @@ body {
   color: white;
   font-family: "Mojangles";
   line-height: 24px;
+  resize: none;
 }
 #pack-desc:hover {
   outline: 2px solid green;
