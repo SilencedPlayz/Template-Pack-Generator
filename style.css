@@ -204,6 +204,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   height: 7px;
+  width: 60px;
 }
 .checkbox:checked {
   background-image: url("./icons/checked.png");
