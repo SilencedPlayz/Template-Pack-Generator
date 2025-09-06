@@ -194,18 +194,18 @@ body {
   height: 60px;
 }
 .checkbox {
-  border-style: solid;
-  border-width: 10px;
-  border-image-source: url("./icons/uncheck.png");
+  border: none;
+  background-image: url("./icons/uncheck.png");
   image-rendering: pixelated;
   webkit-appearance: none;
   appearance: none;
-  border-image-slice: 6 fill;
-  border-image-repeat: stretch;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
   height: 7px;
 }
 .checkbox:checked {
-  border-image-source: url("./icons/checked.png")
+  background-image: url("./icons/checked.png");
 }
 .label {
   display: grid;
